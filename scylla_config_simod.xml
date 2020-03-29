@@ -1,10 +1,17 @@
 <?xml version="1.0" ?>
-<bsim:globalConfiguration xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel">
+<bsim:globalConfiguration id="Production_global" targetNamespace="http://www.hpi.de" xmlns:bsim="http://bsim.hpi.uni-potsdam.de/scylla/simModel">
   <bsim:resourceData>
-    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="3" defaultTimeUnit="HOURS" defaultTimetableId="Role 1_schedule" id="Role 1"/>
-    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 2_schedule" id="Role 2"/>
-    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 3_schedule" id="Role 3"/>
-    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 4_schedule" id="Role 4"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="23" defaultTimeUnit="HOURS" defaultTimetableId="Role 1_schedule" id="Role 1"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="5" defaultTimeUnit="HOURS" defaultTimetableId="Role 2_schedule" id="Role 2"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="4" defaultTimeUnit="HOURS" defaultTimetableId="Role 3_schedule" id="Role 3"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="3" defaultTimeUnit="HOURS" defaultTimetableId="Role 4_schedule" id="Role 4"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="3" defaultTimeUnit="HOURS" defaultTimetableId="Role 5_schedule" id="Role 5"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="2" defaultTimeUnit="HOURS" defaultTimetableId="Role 6_schedule" id="Role 6"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="2" defaultTimeUnit="HOURS" defaultTimetableId="Role 7_schedule" id="Role 7"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 8_schedule" id="Role 8"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 9_schedule" id="Role 9"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 10_schedule" id="Role 10"/>
+    <bsim:dynamicResource defaultCost="0.0" defaultQuantity="1" defaultTimeUnit="HOURS" defaultTimetableId="Role 11_schedule" id="Role 11"/>
   </bsim:resourceData>
   <bsim:timeTables>
     <bsim:timetable id="Role 1_schedule">
@@ -35,6 +42,69 @@
       <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
     </bsim:timetable>
     <bsim:timetable id="Role 4_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 5_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 6_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 7_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 8_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 9_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 10_schedule">
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="THURSDAY" to="THURSDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="FRIDAY" to="FRIDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SATURDAY" to="SATURDAY"/>
+      <bsim:timetableItem beginTime="09:00" endTime="23:59" from="SUNDAY" to="SUNDAY"/>
+    </bsim:timetable>
+    <bsim:timetable id="Role 11_schedule">
       <bsim:timetableItem beginTime="09:00" endTime="23:59" from="MONDAY" to="MONDAY"/>
       <bsim:timetableItem beginTime="09:00" endTime="23:59" from="TUESDAY" to="TUESDAY"/>
       <bsim:timetableItem beginTime="09:00" endTime="23:59" from="WEDNESDAY" to="WEDNESDAY"/>
